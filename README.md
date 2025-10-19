@@ -70,19 +70,42 @@ Implemented multi-layered visualizations using **matplotlib** and **seaborn**, t
 ---
 
 ## Key Insights
+- **Regional Sales Relationship:** EU and Japan game sales show only a weak positive correlation from 2010 to 2014, indicating limited market overlap.
+  
+  <p align="center">
+  <img src="images/viz1.png" alt="Regional Sales Relationship" width="600">
+</p>
+  
+- **Global Publisher Presence:** Electronic Arts and Nintendo lead in 'Other' region sales, highlighting their strong international reach beyond core regions.
+
+    <p align="center">
+  <img src="images/viz2.png" alt="Global Publisher Presence" width="600">
+</p>
+  
 - **Consistency:** Role-Playing titles maintain the narrowest critic score distribution, indicating higher rating reliability across releases.
+
+  <p align="center">
+  <img src="images/viz3.png" alt="Consistency" width="600">
+</p>
+  
 - **Sales Period Comparison:** Older titles (≤2005) outperform newer ones in average sales by 40%, revealing generational market saturation.
-- **Regional Dynamics:** North America and Europe dominated global growth during the early 2000s, though both saw declines post-2010.
+
+  <p align="center">
+  <img src="images/viz4.png" alt="Sales Period Comparison" width="600">
+</p>
+  
+  
 - **Longevity:** Legacy platforms (PlayStation 2, DS, PS3) accounted for one-third of all releases, emphasizing console-driven stability.
-- **Statistical Reliability:** Very low p-values (p < 0.0001) across all regression models validate the presence of genuine long-term regional trends.
 
----
+  <p align="center">
+  <img src="images/viz5.png" alt="Longevity" width="600">
+</p>
+  
+- **Regional Dynamics:** North America and Europe dominated global growth during the early 2000s, though both saw declines post-2010.
 
-## Visualization Gallery
-1. **Genre vs. Critic Scores:** Boxplot + Stripplot hybrid visualizing consistency and quality across top genres.
-2. **Older vs. Newer Games Comparison:** Annotated bar chart summarizing sales performance by release era.
-3. **Platform Distribution:** Donut-style pie chart emphasizing top three platform market share.
-4. **Regional Sales Trends (1980–2016):** Multi-line time series showing NA and EU dominance with regression-supported interpretation.
+  <p align="center">
+  <img src="images/viz6.png" alt="Regional Dynamics" width="600">
+</p>
 
 ---
 
@@ -97,8 +120,3 @@ Implemented multi-layered visualizations using **matplotlib** and **seaborn**, t
 This project provides a comprehensive, statistically validated overview of the global video game industry’s performance over several decades. Through structured analysis, it enables understanding of platform longevity, sales evolution, and critical acclaim distribution.
 
 The findings contribute meaningful business intelligence for game publishers, market analysts, and investors while showcasing advanced data storytelling and visualization practices.
-
----
-
-## How to Reproduce
-1. Clone this repository and open the Jupyter Notebook using:
